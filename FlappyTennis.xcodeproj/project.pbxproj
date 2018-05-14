@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C48654F209233FE0014968B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C48654E209233FE0014968B /* AppDelegate.swift */; };
+		4C486551209233FE0014968B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C486550209233FE0014968B /* ViewController.swift */; };
+		4C486554209233FE0014968B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C486552209233FE0014968B /* Main.storyboard */; };
+		4C486556209234000014968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C486555209234000014968B /* Assets.xcassets */; };
+		4C486559209234000014968B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C486557209234000014968B /* LaunchScreen.storyboard */; };
+		4C486562209235B80014968B /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C486561209235B80014968B /* Bird.swift */; };
+		4C4865642092375B0014968B /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4865632092375B0014968B /* Rocket.swift */; };
+		4C486566209237650014968B /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C486565209237650014968B /* Sprite.swift */; };
+		4C4865682092376C0014968B /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4865672092376C0014968B /* Coin.swift */; };
+		4C48656A209237740014968B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C486569209237740014968B /* Block.swift */; };
+		BA19B74B2098B40C00C8906A /* RocketRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19B74A2098B40C00C8906A /* RocketRight.swift */; };
+		BAE62B4120A4A97D0040A6A3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE62B4020A4A97D0040A6A3 /* MenuViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C48654B209233FE0014968B /* FlappyTennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyTennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C48654E209233FE0014968B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C486550209233FE0014968B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C486553209233FE0014968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C486555209234000014968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C486558209234000014968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C48655A209234000014968B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C486561209235B80014968B /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		4C4865632092375B0014968B /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		4C486565209237650014968B /* Sprite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		4C4865672092376C0014968B /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		4C486569209237740014968B /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		BA19B74A2098B40C00C8906A /* RocketRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketRight.swift; sourceTree = "<group>"; };
+		BAE62B4020A4A97D0040A6A3 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C486548209233FE0014968B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C486542209233FD0014968B = {
+			isa = PBXGroup;
+			children = (
+				4C48654D209233FE0014968B /* FlappyTennis */,
+				4C48654C209233FE0014968B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C48654C209233FE0014968B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C48654B209233FE0014968B /* FlappyTennis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C48654D209233FE0014968B /* FlappyTennis */ = {
+			isa = PBXGroup;
+			children = (
+				4C48654E209233FE0014968B /* AppDelegate.swift */,
+				4C486550209233FE0014968B /* ViewController.swift */,
+				4C486560209235980014968B /* Models */,
+				4C486552209233FE0014968B /* Main.storyboard */,
+				BAE62B4020A4A97D0040A6A3 /* MenuViewController.swift */,
+				4C486555209234000014968B /* Assets.xcassets */,
+				4C486557209234000014968B /* LaunchScreen.storyboard */,
+				4C48655A209234000014968B /* Info.plist */,
+			);
+			path = FlappyTennis;
+			sourceTree = "<group>";
+		};
+		4C486560209235980014968B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C486561209235B80014968B /* Bird.swift */,
+				4C4865632092375B0014968B /* Rocket.swift */,
+				BA19B74A2098B40C00C8906A /* RocketRight.swift */,
+				4C486565209237650014968B /* Sprite.swift */,
+				4C4865672092376C0014968B /* Coin.swift */,
+				4C486569209237740014968B /* Block.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C48654A209233FE0014968B /* FlappyTennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C48655D209234000014968B /* Build configuration list for PBXNativeTarget "FlappyTennis" */;
+			buildPhases = (
+				4C486547209233FE0014968B /* Sources */,
+				4C486548209233FE0014968B /* Frameworks */,
+				4C486549209233FE0014968B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyTennis;
+			productName = FlappyTennis;
+			productReference = 4C48654B209233FE0014968B /* FlappyTennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C486543209233FD0014968B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Mission Edition";
+				TargetAttributes = {
+					4C48654A209233FE0014968B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4C486546209233FD0014968B /* Build configuration list for PBXProject "FlappyTennis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C486542209233FD0014968B;
+			productRefGroup = 4C48654C209233FE0014968B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C48654A209233FE0014968B /* FlappyTennis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C486549209233FE0014968B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C486559209234000014968B /* LaunchScreen.storyboard in Resources */,
+				4C486556209234000014968B /* Assets.xcassets in Resources */,
+				4C486554209233FE0014968B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C486547209233FE0014968B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C4865682092376C0014968B /* Coin.swift in Sources */,
+				4C48656A209237740014968B /* Block.swift in Sources */,
+				4C486566209237650014968B /* Sprite.swift in Sources */,
+				4C486551209233FE0014968B /* ViewController.swift in Sources */,
+				4C486562209235B80014968B /* Bird.swift in Sources */,
+				BA19B74B2098B40C00C8906A /* RocketRight.swift in Sources */,
+				4C48654F209233FE0014968B /* AppDelegate.swift in Sources */,
+				BAE62B4120A4A97D0040A6A3 /* MenuViewController.swift in Sources */,
+				4C4865642092375B0014968B /* Rocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C486552209233FE0014968B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C486553209233FE0014968B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C486557209234000014968B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C486558209234000014968B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C48655B209234000014968B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C48655C209234000014968B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C48655E209234000014968B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCJB96QZ4P;
+				INFOPLIST_FILE = FlappyTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missioneditions.FlappyTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C48655F209234000014968B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCJB96QZ4P;
+				INFOPLIST_FILE = FlappyTennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.missioneditions.FlappyTennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C486546209233FD0014968B /* Build configuration list for PBXProject "FlappyTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C48655B209234000014968B /* Debug */,
+				4C48655C209234000014968B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C48655D209234000014968B /* Build configuration list for PBXNativeTarget "FlappyTennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C48655E209234000014968B /* Debug */,
+				4C48655F209234000014968B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C486543209233FD0014968B /* Project object */;
+}
