@@ -11,3 +11,5 @@ new branche commit
 master commit
 
 MasterConflictBranche
+
+masterChanges
