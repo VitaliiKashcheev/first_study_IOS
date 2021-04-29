@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Changes for SMTH
+
 enum Direction {
     case right
     case left
