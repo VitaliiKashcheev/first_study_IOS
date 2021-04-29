@@ -12,12 +12,16 @@ import UIKit
 
 // New changes
 
+// Local changes
+
 enum Direction {
     case right
     case left
     case top
     case bottom
 }
+
+//master commit
 
 class ViewController: UIViewController {
   
